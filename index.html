@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>formulario</title>
 </head>
 <body>
+
+<table style="width: 400px;"> 
+    <tr>
+        <th>producto</th>
+        <th>precio</th>
+    </tr>
+    <tr>
+        <td>hola soy bareto</td>
+        <td>hola soy gratis tmb</td> 
+    </tr>
+    <tr>
+        <td>hola soy crippie</td>
+        <td>valgo poco mas</td>
+    </tr>
+</table>
+
     <form action="/formulario" method="post">
-        <label for="nombre">nombre</label>
+        <label for="nombre">nombre</label >
         <input type="text" id="nombre" name="nombre" placeholder="nombre">
         <br>
         <label for="apellido">apellido</label>
@@ -23,7 +40,7 @@
     <h3>este es un subtitulo x</h3>
     <h4>este es un subtitulo x</h4>
     <h5>este es un subtitulo x</h5>
-    <h6>este es un subtitulo x</h6>
+    <h6><span style="color: chartreuse;">es un subtitulo x</span> pene</h6>
     <p>
     Lorem ipsum dolor sit amet consectetur,<span style="color: blueviolet;"> ya no me gustas, me encantas, me tiene 
     dandole besos al celular</span> adipisicing elit. A, maiores? Quas ut neque adipisci 
@@ -32,8 +49,37 @@
     </p>
 
     <hr>
-    <p>pinche aca para ir a su feisbuk: </p>
-    <a target="_blank" href="https://www.facebook.com.co"></a>
-    <img src="img/sebasrandom.jpg" alt="foto sebitas" width="250" height="250">
+    <p>
+        pinche aca para ir a su feisbuk: 
+        <a target="_blank" href="https://www.facebook.com.co">facebook</a>
+    </p>
+    
+    <img src="img/sebasrandom.jpg" alt="foto sebitas">
+
+
+    <!--ul es una lista que no es ordenada-->
+    <ul>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+    </ul>
+
+    <!--ol es una lista que es ordenada-->
+
+    <ol>
+        <li value="10">elemento uno</li>
+        <li>elemento dos</li>
+        <li>elemento tres</li>
+        <li>elemento cuatro</li>
+        <li>
+            <ol>
+            <li style="list-style-type: lower-alpha; ">asereje</li>
+            <li style="list-style-type: lower-alpha;">asereje</li>
+            <li style="list-style-type: lower-alpha;">asereje</li>
+            <li style="list-style-type: lower-alpha;">asereje</li>
+            </ol>
+        </li>
+    </ol>
 </body>
 </html>
